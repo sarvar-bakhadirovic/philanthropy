@@ -1,0 +1,117 @@
+.communities {
+    display: flex;
+    flex-direction: column;
+    width: 1268px;
+    height: 1146px;
+    margin: 200px 86px;
+}
+
+.communities__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.communities__textbox {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100%;
+}
+
+.communities__subtitle {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FF9C08;
+    margin: 0;
+}
+
+.communities__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58px;
+    color: #090909;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.communities__btn {
+    width: 180px;
+    height: 70px;
+    background-color: #FF9C08;
+    color: #fff;
+    border: 2px solid #FF9C08;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+    margin-top: 80px;
+}
+
+.communities__btn:hover {
+    background-color: transparent;
+    color: #FF9C08;
+}
+
+.communities__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1220px;
+    gap: 32px;
+    list-style: none;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.communities__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 345px;
+    height: 450px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    transition: all .5s;
+}
+
+.communities__item:hover{
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.communities__img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+
+.communities__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #090909;
+    margin: 24px 0 11px 0;
+}
+
+.communities__desc {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #6E6E6E;
+    width: 300px;
+    margin: 0;
+}

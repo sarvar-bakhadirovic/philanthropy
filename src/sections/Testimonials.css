@@ -1,0 +1,159 @@
+.testimonials {
+    display: flex;
+    width: 100%;
+    height: 1090px;
+    background-color: #FEF9F2;
+}
+
+.testimonials__content {
+    display: flex;
+    width: 1220px;
+    height: 685px;
+    margin: 200px 110px;
+}
+
+.testimonials__imageBox {
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.testimonails__img {
+    width: 575px;
+    height: 635px;
+}
+
+.testimonials__textbox {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 390px;
+    height: 300px;
+    background: #FFFFFF;
+    border: 1px solid #F0ECE8;
+    box-shadow: 0px 2px 12px rgba(43, 43, 43, 0.06);
+    border-radius: 12px;
+    padding: 60px 40px;
+}
+
+.testimonials__desc {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6E6E6E;
+    width: 305px;
+    margin: 0 auto;
+}
+
+.testimonials__name {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #090909;
+    margin: 16px 0;
+}
+
+.testimonials__country {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #989898;
+    margin: 0;
+}
+
+.testimonials__details {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 480px;
+    margin: 100px 0 100px 70px;
+}
+
+.testimonials__subtitle {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FF9C08;
+    margin: 0;
+}
+
+.testimonials__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58px;
+    color: #090909;
+    width: 430px;
+    margin: 20px 0;
+}
+
+.testimonials__description {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #6E6E6E;
+    margin: 0;
+    margin-bottom: 12px;
+    width: 500px;
+}
+
+.testimonials__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.testimonials__item {
+    display: flex;
+    gap: 16px;
+}
+
+.testimonials__icon {
+    font-size: 20px;
+    color: #FF9C08;
+}
+
+.testimonials__item span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.testimonials__btn{
+    width: 180px;
+    height: 70px;
+    background-color: #FF9C08;
+    border: 2px solid #FF9C08;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.testimonials__btn:hover {
+    background-color: transparent;
+    color: #FF9C08;
+}

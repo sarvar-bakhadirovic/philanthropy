@@ -1,0 +1,81 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 869px;
+    margin-top: 130px;
+}
+.hero__container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero__image{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    margin: 200px 0 0 100px;
+}
+.hero__content::before{
+    content: '';
+    width: 20%;
+    height: 5px;
+    background-color: #FF9C08;
+}
+.hero__title{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #090909;
+    margin: 30px 0 0 0;
+}
+.hero__desc{
+    font-size: 24px;
+    font-weight: 400;
+    color: #6e6e6e;
+    margin: 16px 0 43px 0;
+}
+.hero__buttons{
+    display: flex;
+    width: 70%;
+    gap: 30px;
+}
+.hero__donateBtn{
+    width: 50%;
+    height: 70px;
+    background-color: #FF9C08;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #FF9C08;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.hero__donateBtn:hover{
+    background-color: transparent;
+    color: #FF9C08;
+}
+.hero__aboutBtn{
+    width: 50%;
+    height: 70px;
+    background-color: transparent;
+    color: #000;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero__aboutBtn:hover{
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
